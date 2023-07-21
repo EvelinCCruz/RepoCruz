@@ -71,20 +71,9 @@ nav{
                 align-items: center;
                 justify-content: center;
                 text-align: center;
-                &:after{
+                &:hover{
                     color: $keyColor;
-                    width: 0;
-                    height: 100%;
-                    background-color: $keyColor;
-                    position: absolute;
-                    bottom: 0;
-                    right: 50%;
-                    transition: all .5s;
-                    will-change: width;
-                    &:hover{
-                        color: $keyColor;
-                        width: 100%;
-                    }
+                    
                 }
                 
                 

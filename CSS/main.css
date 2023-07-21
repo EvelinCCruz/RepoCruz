@@ -74,20 +74,8 @@ nav ul li a {
   justify-content: center;
   text-align: center;
 }
-nav ul li a:after {
+nav ul li a:hover {
   color: orange;
-  width: 0;
-  height: 100%;
-  background-color: orange;
-  position: absolute;
-  bottom: 0;
-  right: 50%;
-  transition: all 0.5s;
-  will-change: width;
-}
-nav ul li a:after:hover {
-  color: orange;
-  width: 100%;
 }
 
 #pages {
