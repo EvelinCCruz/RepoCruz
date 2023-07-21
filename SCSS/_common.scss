@@ -73,9 +73,7 @@ nav{
                 text-align: center;
                 &:hover{
                     color: $keyColor;
-                    
-                }
-                
+                }             
                 
             }
         }
@@ -85,6 +83,11 @@ nav{
 
 #pages{
     background-color: $mainColor;
+    .caja-container{
+        h1{
+            text-shadow: $shadow;
+        }
+    }
 }
 
 
