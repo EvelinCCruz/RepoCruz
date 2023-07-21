@@ -1,0 +1,79 @@
+.Video{
+    img{
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index:-1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0 ;
+    }
+}
+.caja-container{
+    color: $white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    h1{
+        font-size: $fontXl;
+        color: $white;
+        font-weight: $textSemi;
+        text-shadow: $textShadow;
+    }
+}
+
+#mainhome{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    .home{
+        display: flex;
+        flex-direction: row;
+        .container{
+            margin: $margin;
+        }
+        .derecha{
+            padding: 10%;
+            margin: $margin;
+            border-radius: $border;
+            .map-container{
+                display: flex;
+                flex-direction: column;
+                iframe{
+                    border-radius: $border;
+                    box-shadow: $shadow;
+                }
+            }
+            .imgs-redes{
+                margin: $margin;
+                
+                a{
+                    text-decoration: none;
+                    display: inline-block;
+                    line-height: 10px;
+                    margin-right: 10px; 
+                }
+                img{
+                    width: $sizeMd;
+                }
+            }
+        }
+    }
+    #reseñas{
+        background-color: $secundaryColor;
+        border-radius: $border;
+        text-align: center;
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin: 30px;
+        box-shadow: $shadow;
+        .reseña{
+            margin: $margin;
+        }     
+    }    
+}

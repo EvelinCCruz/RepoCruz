@@ -37,4 +37,12 @@
         font-size: $fontXs;
         flex-grow: 1;
     }
+    #cursos-especiales{
+        width: 100%;
+        background-color: $secundaryColor;
+        border-radius: $border;
+        text-align: center;
+        padding: 20px;
+        justify-content: center;
+    }
 }

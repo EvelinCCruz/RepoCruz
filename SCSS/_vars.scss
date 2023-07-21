@@ -1,21 +1,22 @@
 $mainColor: #01135B;
 $mainColorb: rgba(1, 19, 91, 0.3);
-$secundaryColor: rgb(200, 217, 233);
+$mainColorc: rgba(1, 19, 91, 0.8);
+$secundaryColor: rgb(243, 245, 247);
 $keyColor: orange;
 $white: rgb(240, 240, 240);
 $black: rgb(17, 17, 17);
 
-$mainFont: 'Montserrat';
+$mainFont: 'Oswald';
 
-$fontXs:15px;
-$fontSm: 18px;
-$fontMd: 20px;
+$fontXs:18px;
+$fontSm: 20px;
+$fontMd: 22px;
 $fontLg: 26px;
 $fontXl: 4em;
 
 $textRegular: 300;
-$textSemi: 600;
-$textBold: 800;
+$textSemi: 500;
+$textBold: 700;
 
 $sizeXsm: 15px;
 $sizeSm: 25px;
@@ -26,6 +27,8 @@ $sizeMax: 300px;
 
 $border: 1em;
 
-$shadow: 1px 1px 3px rgb(17, 17, 17);
-$textShadow: 4px 4px 10px rgb(17, 17, 17);
+$margin: 20px 15px;
+
+$shadow: 1px 1px 10px rgb(177, 175, 175);
+$textShadow: 4px 4px 3px rgb(17, 17, 17);
 $shadowWhaite: 1px 1px 8px rgb(180, 180, 180);

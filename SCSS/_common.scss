@@ -23,6 +23,7 @@ h3{
 
 p{
     font-size: $fontXs;
+    font-weight: $textRegular;
 }
 
 .bg-blue{
@@ -46,68 +47,59 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: center;
     z-index: 3;
-    nav{
-        img{
-        width: $sizeXlg;
-        padding: 6px;
-        }
-        ul{
-        list-style: none;
-        display: flex;
-            li{
-                margin-right: 20px;
-                padding-top: 10px;
-                a{
-                    text-decoration: none;
-                    color: $white;
-                    font-size: $fontMd;
-                    font-weight: $textSemi;
-                    letter-spacing: 1px;
-                    text-shadow: $shadow;
+}
+nav{
+    img{
+    width: $sizeXlg;
+    padding: 6px;
+    }
+    ul{
+    list-style: none;
+    display: flex;
+        li{
+            margin-right: 20px;
+            padding-top: 10px;
+           
+            a{
+                text-decoration: none;
+                color: $white;
+                font-size: $fontMd;
+                font-weight: $textSemi;
+                letter-spacing: 1px;
+                text-shadow: $shadow;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                &:after{
+                    color: $keyColor;
+                    width: 0;
+                    height: 100%;
+                    background-color: $keyColor;
+                    position: absolute;
+                    bottom: 0;
+                    right: 50%;
+                    transition: all .5s;
+                    will-change: width;
                     &:hover{
                         color: $keyColor;
+                        width: 100%;
                     }
                 }
+                
+                
             }
         }
-    }   
-}
-
+      
+    }
+}   
 
 #pages{
     background-color: $mainColor;
 }
 
 
-.Video{
-    img{
-        width: 100%;
-        object-fit: cover;
-        position: absolute;
-        z-index:-1;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0 ;
-    }
-    .caja-container{
-        color: $white;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 83vh;
-        h1{
-            font-size: $fontXl;
-            color: $white;
-            font-weight: $textSemi;
-            text-shadow: $textShadow;
-        }
-    }
-}
+
 
 
 .pie-pagina{
