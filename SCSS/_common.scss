@@ -1,0 +1,144 @@
+*{
+    font-family: $mainFont;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: $mainColor;
+    font-size: $fontLg;
+    font-weight: $textBold;
+}
+
+h2{ 
+    color: $mainColor;
+    font-size: $fontMd;
+    font-weight: $textSemi;
+}
+
+h3{
+    color: $white;
+    font-size: $fontSm;
+}
+
+p{
+    font-size: $fontXs;
+}
+
+.bg-blue{
+    background-color: $mainColor;
+    color: $white;
+    .bg-blue:hover{
+        background-color: $white;
+        color: $mainColor;
+        border-color: $mainColor;
+        border-width: 2px;
+    }
+}
+
+
+.nav{
+    box-shadow: 0 0 15px $mainColor;
+    background-color: $mainColorb;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 3;
+    nav{
+        img{
+        width: $sizeXlg;
+        padding: 6px;
+        }
+        ul{
+        list-style: none;
+        display: flex;
+            li{
+                margin-right: 20px;
+                padding-top: 10px;
+                a{
+                    text-decoration: none;
+                    color: $white;
+                    font-size: $fontMd;
+                    font-weight: $textSemi;
+                    letter-spacing: 1px;
+                    text-shadow: $shadow;
+                    &:hover{
+                        color: $keyColor;
+                    }
+                }
+            }
+        }
+    }   
+}
+
+
+#pages{
+    background-color: $mainColor;
+}
+
+
+.Video{
+    img{
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index:-1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0 ;
+    }
+    .caja-container{
+        color: $white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 83vh;
+        h1{
+            font-size: $fontXl;
+            color: $white;
+            font-weight: $textSemi;
+            text-shadow: $textShadow;
+        }
+    }
+}
+
+
+.pie-pagina{
+    background-color: $mainColor;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    .box1{
+        margin: 10px;
+        padding: 10px;
+        .red-social{
+            img{ 
+                width: $sizeSm;
+            }
+            a{
+                text-decoration: none;
+                display: inline-block;
+                line-height: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .box2{
+        color: $white;
+        margin: 30px;
+        padding-top: 6px;
+    }
+
+}
+    
+
+
+

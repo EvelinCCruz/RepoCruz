@@ -1,0 +1,6 @@
+*.jpg
+*.png
+*.svg
+node_modules/
+*.map
+*.gif

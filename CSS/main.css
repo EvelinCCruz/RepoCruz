@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #01135B;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+h2 {
+  color: rgb(17, 17, 17);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h3 {
+  color: rgb(240, 240, 240);
+  font-size: 18px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.bg-blue {
+  background-color: #01135B;
+  color: rgb(240, 240, 240);
+}
+.bg-blue .bg-blue:hover {
+  background-color: rgb(240, 240, 240);
+  color: #01135B;
+  border-color: #01135B;
+  border-width: 2px;
+}
+
+.nav {
+  box-shadow: 0 0 15px #01135B;
+  background-color: rgba(1, 19, 91, 0.3);
+  position: relative;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  z-index: 3;
+}
+.nav nav img {
+  width: 250px;
+  padding: 6px;
+}
+.nav nav ul {
+  list-style: none;
+  display: flex;
+}
+.nav nav ul li {
+  margin-right: 20px;
+  padding-top: 10px;
+}
+.nav nav ul li a {
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgb(17, 17, 17);
+}
+.nav nav ul li a:hover {
+  color: orange;
+}
+
+#pages {
+  background-color: #01135B;
+}
+
+.Video img {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.Video .caja-container {
+  color: rgb(240, 240, 240);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 83vh;
+}
+.Video .caja-container h1 {
+  font-size: 4em;
+  color: rgb(240, 240, 240);
+  font-weight: 600;
+  text-shadow: 4px 4px 10px rgb(17, 17, 17);
+}
+
+.pie-pagina {
+  background-color: #01135B;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.pie-pagina .box1 {
+  margin: 10px;
+  padding: 10px;
+}
+.pie-pagina .box1 .red-social img {
+  width: 25px;
+}
+.pie-pagina .box1 .red-social a {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 10px;
+  margin-right: 10px;
+}
+.pie-pagina .box2 {
+  color: rgb(240, 240, 240);
+  margin: 30px;
+  padding-top: 6px;
+}
+
+#galeria .carousel-slide {
+  position: absolute;
+}
+#galeria .marca-agua img {
+  width: 90%;
+  margin: 20px;
+  opacity: 0.3;
+  z-index: 2;
+}
+
+#cursos {
+  width: 95%;
+  margin: 20px 20px;
+  padding: 10px;
+}
+#cursos .row {
+  margin: 5px;
+  top: 50%;
+  left: 50%;
+}
+#cursos .card {
+  box-shadow: 1px 1px 8px rgb(180, 180, 180);
+  margin: 0;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+#cursos .card-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #01135B;
+}
+#cursos .card-text {
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+#galeria .headerfoto {
+  position: absolute;
+}
+#galeria .headerfoto img {
+  width: 100%;
+}
+#home .marca-agua img {
+  width: 100%;
+  height: auto;
+}
+#home .marca-agua-staff {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  opacity: 0.4;
+  padding: 10px;
+}
+#home .marca-agua-staff img {
+  width: 90%;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
