@@ -127,14 +127,20 @@ nav ul li a:hover {
   left: 0;
 }
 
-.caja-container {
-  color: rgb(240, 240, 240);
+.presentacion {
+  background-image: url(/imgs/fotosprincipales/home1.png);
   width: 100%;
+  height: 80vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 77vh;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.caja-container {
+  text-align: center;
+  width: 100%;
 }
 .caja-container h1 {
   font-size: 4em;
@@ -254,6 +260,7 @@ nav ul li a:hover {
 
 @media (width < 768px) {
   .pie-pagina {
+    text-align: center;
     width: auto;
     display: flex;
     flex-direction: column;

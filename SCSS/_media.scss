@@ -1,5 +1,6 @@
 @media (width < 768px){
     .pie-pagina{
+        text-align: center;
         width: auto;
         display: flex;
         flex-direction:column;
@@ -14,4 +15,7 @@
         margin: 5px;
         }
     }
+}
+
+.home{
 }
