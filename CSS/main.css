@@ -42,13 +42,13 @@ p {
 .nav {
   box-shadow: 0 0 15px #01135B;
   background-color: rgba(1, 19, 91, 0.3);
-  position: relative;
-  top: 0px;
+  position: fixed;
+  top: 0;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  z-index: 3;
+  z-index: 5;
 }
 
 nav img {
@@ -78,8 +78,13 @@ nav ul li a:hover {
   color: orange;
 }
 
+#nav-home {
+  position: fixed;
+}
+
 #pages {
-  background-color: #01135B;
+  background-color: rgba(5, 5, 5, 0.3);
+  box-shadow: 0 0 15px rgb(17, 17, 17);
 }
 #pages .caja-container h1 {
   text-shadow: 1px 1px 10px rgb(177, 175, 175);
@@ -129,7 +134,7 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 65vh;
+  height: 77vh;
 }
 .caja-container h1 {
   font-size: 4em;
@@ -182,21 +187,12 @@ nav ul li a:hover {
   display: grid;
   place-items: center;
   width: 100%;
-  margin: 30px;
   box-shadow: 1px 1px 10px rgb(177, 175, 175);
+  margin: 0px 30px 30px;
 }
 #mainhome #reseñas .reseña {
-  margin: 20px 15px;
-}
-
-#galeria .carousel-slide {
-  position: absolute;
-}
-#galeria .marca-agua img {
-  width: 90%;
-  margin: 20px;
-  opacity: 0.3;
-  z-index: 2;
+  padding: 10px;
+  margin: 5px 5px;
 }
 
 #cursos {
@@ -254,6 +250,24 @@ nav ul li a:hover {
 #home .marca-agua-staff img {
   width: 90%;
   margin: 10px;
+}
+
+@media (width < 768px) {
+  .pie-pagina {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .pie-pagina .box1 {
+    margin: 5px;
+    padding: 5px;
+  }
+  .pie-pagina .box2 {
+    padding-top: 0px;
+    margin: 5px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

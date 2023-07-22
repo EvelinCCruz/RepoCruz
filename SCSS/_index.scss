@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 65vh;
+    height: 77vh;
     h1{
         font-size: $fontXl;
         color: $white;
@@ -69,11 +69,14 @@
         text-align: center;
         display: grid;
         place-items: center;
-        width: 100%;
-        margin: 30px;
+        width: 100%;       
         box-shadow: $shadow;
+        margin: $margin2;
+        
         .reseña{
-            margin: $margin;
-        }     
+            padding: 10px;
+            margin: 5px 5px;
+        }
+            
     }    
 }

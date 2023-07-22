@@ -41,13 +41,14 @@ p{
 .nav{
     box-shadow: 0 0 15px $mainColor;
     background-color: $mainColorb;
-    position: relative;
-    top: 0px;
+    position: fixed;
+    top: 0;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    z-index: 3;
+    z-index: 5;
+   
 }
 nav{
     img{
@@ -80,12 +81,17 @@ nav{
       
     }
 }   
+#nav-home{
+    position: fixed;
+}
 
 #pages{
-    background-color: $mainColor;
+    background-color: $mainColorc;
+    box-shadow: 0 0 15px $black;
+    
     .caja-container{
         h1{
-            text-shadow: $shadow;
+           text-shadow: $shadow;
         }
     }
 }

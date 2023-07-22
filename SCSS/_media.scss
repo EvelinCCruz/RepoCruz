@@ -1,0 +1,17 @@
+@media (width < 768px){
+    .pie-pagina{
+        width: auto;
+        display: flex;
+        flex-direction:column;
+        justify-items: center;
+        align-items: center;
+        .box1{
+            margin: 5px;
+            padding: 5px
+        }
+        .box2{
+        padding-top: 0px;
+        margin: 5px;
+        }
+    }
+}
