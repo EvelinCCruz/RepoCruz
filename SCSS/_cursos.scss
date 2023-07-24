@@ -1,7 +1,7 @@
 #cursos{
-    width: 95%;
-    margin: 20px 20px;
-    padding: 10px;
+    width: 97%;
+    margin: $margin;   
+    text-align: justify; 
     .row{
         margin: 5px;
         top: 50%;
@@ -9,7 +9,7 @@
     }
     .card{
         box-shadow: $shadowWhaite;
-        margin: 0;
+        margin: 0px;
         text-align: justify;
         display: flex;
         flex-direction: column;

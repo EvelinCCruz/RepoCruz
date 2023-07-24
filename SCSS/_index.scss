@@ -36,23 +36,31 @@
 #mainhome{
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 96%;
     .home{
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        text-align: justify;
         .container{
             margin: $margin;
         }
         .derecha{
-            padding: 10%;
-            margin: $margin;
-            border-radius: $border;
+            margin: 20px;
             .map-container{
+                margin: 20px;
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
+                align-content: center;
                 iframe{
                     border-radius: $border;
                     box-shadow: $shadow;
+                    margin: 6px 0px; 
+                    width: 500px;
+                    height: 430px;
+                    
                 }
             }
             .imgs-redes{
@@ -76,13 +84,13 @@
         text-align: center;
         display: grid;
         place-items: center;
-        width: 100%;       
+        width: 95%;       
         box-shadow: $shadow;
         margin: $margin2;
         
         .reseña{
             padding: 10px;
-            margin: 5px 5px;
+            margin: 10px;
         }
             
     }    

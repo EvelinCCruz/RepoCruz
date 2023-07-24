@@ -7,13 +7,13 @@
 }
 
 h1 {
-  color: #01135B;
+  color: rgb(1, 19, 91);
   font-size: 26px;
   font-weight: 700;
 }
 
 h2 {
-  color: #01135B;
+  color: rgb(1, 19, 91);
   font-size: 22px;
   font-weight: 500;
 }
@@ -29,18 +29,18 @@ p {
 }
 
 .bg-blue {
-  background-color: #01135B;
+  background-color: rgb(1, 19, 91);
   color: rgb(240, 240, 240);
 }
 .bg-blue .bg-blue:hover {
   background-color: rgb(240, 240, 240);
-  color: #01135B;
-  border-color: #01135B;
+  color: rgb(1, 19, 91);
+  border-color: rgb(1, 19, 91);
   border-width: 2px;
 }
 
 .nav {
-  box-shadow: 0 0 15px #01135B;
+  box-shadow: 0 0 15px rgb(1, 19, 91);
   background-color: rgba(1, 19, 91, 0.3);
   position: fixed;
   top: 0;
@@ -83,7 +83,7 @@ nav ul li a:hover {
 }
 
 #pages {
-  background-color: rgba(5, 5, 5, 0.3);
+  background-color: rgba(1, 19, 91, 0.3);
   box-shadow: 0 0 15px rgb(17, 17, 17);
 }
 #pages .caja-container h1 {
@@ -91,7 +91,7 @@ nav ul li a:hover {
 }
 
 .pie-pagina {
-  background-color: #01135B;
+  background-color: rgb(1, 19, 91);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -152,27 +152,34 @@ nav ul li a:hover {
 #mainhome {
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 96%;
 }
 #mainhome .home {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
 }
 #mainhome .home .container {
   margin: 20px 15px;
 }
 #mainhome .home .derecha {
-  padding: 10%;
-  margin: 20px 15px;
-  border-radius: 1em;
+  margin: 20px;
 }
 #mainhome .home .derecha .map-container {
+  margin: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 #mainhome .home .derecha .map-container iframe {
   border-radius: 1em;
   box-shadow: 1px 1px 10px rgb(177, 175, 175);
+  margin: 6px 0px;
+  width: 500px;
+  height: 430px;
 }
 #mainhome .home .derecha .imgs-redes {
   margin: 20px 15px;
@@ -192,19 +199,19 @@ nav ul li a:hover {
   text-align: center;
   display: grid;
   place-items: center;
-  width: 100%;
+  width: 95%;
   box-shadow: 1px 1px 10px rgb(177, 175, 175);
-  margin: 0px 30px 30px;
+  margin: 10px 30px 30px;
 }
 #mainhome #reseñas .reseña {
   padding: 10px;
-  margin: 5px 5px;
+  margin: 10px;
 }
 
 #cursos {
-  width: 95%;
-  margin: 20px 20px;
-  padding: 10px;
+  width: 97%;
+  margin: 20px 15px;
+  text-align: justify;
 }
 #cursos .row {
   margin: 5px;
@@ -213,7 +220,7 @@ nav ul li a:hover {
 }
 #cursos .card {
   box-shadow: 1px 1px 8px rgb(180, 180, 180);
-  margin: 0;
+  margin: 0px;
   text-align: justify;
   display: flex;
   flex-direction: column;
@@ -221,7 +228,7 @@ nav ul li a:hover {
 #cursos .card-title {
   font-size: 18px;
   font-weight: 500;
-  color: #01135B;
+  color: rgb(1, 19, 91);
 }
 #cursos .card-text {
   font-size: 18px;
@@ -234,6 +241,68 @@ nav ul li a:hover {
   text-align: center;
   padding: 20px;
   justify-content: center;
+}
+
+main {
+  text-align: center;
+}
+main .salidascortas .salidas-diurnas {
+  background-color: rgb(1, 19, 91);
+  width: 100%;
+  padding: 15px;
+  margin: 0px;
+}
+main .salidascortas .salidas-diurnas h2 {
+  color: rgb(240, 240, 240);
+}
+main .salidascortas .salidas-diurnas p {
+  color: rgb(240, 240, 240);
+}
+main .salidascortas .salidas-diurnas .tipo-diurnas {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 40vh);
+  gap: 35px;
+  grid-template-areas: "uno tres tres" "dos dos cuatro" "cinco cinco cuatro" "cinco cinco seis";
+}
+main .salidascortas .salidas-diurnas .tipo-diurnas img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1em;
+  box-shadow: 1px 1px 10px rgb(177, 175, 175);
+  padding: 5px;
+}
+main .salidascortas .salidas-diurnas .tipo-diurnas .salida1 {
+  grid-area: uno;
+}
+main .salidascortas .salidas-diurnas .tipo-diurnas .salida2 {
+  grid-area: dos;
+}
+main .salidascortas .salidas-diurnas .tipo-diurnas .salida3 {
+  grid-area: tres;
+}
+main .salidascortas .salidas-diurnas .tipo-diurnas .salida4 {
+  grid-area: cuatro;
+}
+main .salidascortas .salidas-diurnas .tipo-diurnas .salida5 {
+  grid-area: cinco;
+}
+main .salidascortas .salidas-diurnas .tipo-diurnas .salida6 {
+  grid-area: seis;
+}
+main .salidascortas .salidas-especiales {
+  background-color: rgb(243, 245, 247);
+  width: 100%;
+  padding: 15px;
+  margin: 0px;
+}
+main .travell {
+  width: 100%;
+  padding: 15px;
+  margin: 0px;
+  text-align: center;
 }
 
 #galeria .headerfoto {
@@ -274,6 +343,31 @@ nav ul li a:hover {
   .pie-pagina .box2 {
     padding-top: 0px;
     margin: 5px;
+  }
+  #mainhome .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+  }
+  #mainhome .home .container {
+    max-width: 760px;
+  }
+  #mainhome .home .derecha {
+    padding: 0px;
+    margin: 0px 25px;
+  }
+  #mainhome .home .derecha .map-container iframe {
+    width: 104%;
+  }
+  #mainhome .reseña {
+    padding: 30px;
+  }
+  main .salidascortas .salidas-diurnas .tipo-diurnas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 40vh);
+    grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis";
   }
 }
 

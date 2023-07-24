@@ -15,7 +15,58 @@
         margin: 5px;
         }
     }
+
+
+
+
+
+    #mainhome{
+        .home{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+            .container{
+                max-width: 760px;
+            }
+            .derecha{
+                padding: 0px;
+                margin: 0px 25px;
+                .map-container{
+                    iframe{
+                        width: 104%;
+                    }
+                }
+            }
+        }
+        .reseña{
+            padding: 30px;
+        }
+    }
+
+
+
+
+    main{
+        .salidascortas{
+            .salidas-diurnas{
+                .tipo-diurnas{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(6, 40vh);
+                    grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis";
+                }
+            }
+        }
+    }
+    
+    
+
+
+
+
+    
+     
 }
 
-.home{
-}
+
