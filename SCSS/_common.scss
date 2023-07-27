@@ -61,7 +61,7 @@ nav{
         li{
             margin-right: 20px;
             padding-top: 10px;
-           
+            
             a{
                 text-decoration: none;
                 color: $white;
@@ -75,7 +75,10 @@ nav{
                 transition: .2s ease-in-out all;
                 &:hover{
                     color: $keyColor;                                                                       
-                }                 
+                }  
+                .active{
+                    color: $keyColor;
+                }              
             }
             .idicator{
                 width: 100%;

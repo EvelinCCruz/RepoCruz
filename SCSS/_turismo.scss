@@ -1,6 +1,9 @@
 main{
     text-align: center;
     .salidascortas{
+        .turismo{
+            margin: $margin;
+        }
         .salidas-diurnas{
             background-color: $mainColor;
             width: 100%;
