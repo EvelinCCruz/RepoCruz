@@ -18,7 +18,8 @@ h2{
 
 h3{
     color: $white;
-    font-size: $fontSm;
+    font-size: $fontXs;
+    font-weight: $textRegular;
 }
 
 p{
@@ -120,24 +121,33 @@ nav{
     justify-content: space-between;
     align-content: center;
     .box1{
-        margin: 10px;
-        padding: 10px;
+        margin: 15px;        
         .red-social{
             img{ 
-                width: $sizeSm;
+                width: 30px;                
             }
             a{
                 text-decoration: none;
                 display: inline-block;
-                line-height: 10px;
-                margin-right: 10px;
+                margin: 0px 5px 5px 4px;
+                text-align: center;
+                line-height: 27px;
+                width: 30px;
+                border-radius: 20%;
+                transition: all .5s ease;
+                &:hover{
+                    background-color: $keyColor;
+                }
+                
             }
         }
     }
     .box2{
         color: $white;
-        margin: 30px;
-        padding-top: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;        
     }
 
 }

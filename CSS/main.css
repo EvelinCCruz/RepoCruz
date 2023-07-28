@@ -20,7 +20,8 @@ h2 {
 
 h3 {
   color: rgb(240, 240, 240);
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 p {
@@ -110,22 +111,30 @@ nav ul li .idicator {
   align-content: center;
 }
 .pie-pagina .box1 {
-  margin: 10px;
-  padding: 10px;
+  margin: 15px;
 }
 .pie-pagina .box1 .red-social img {
-  width: 25px;
+  width: 30px;
 }
 .pie-pagina .box1 .red-social a {
   text-decoration: none;
   display: inline-block;
-  line-height: 10px;
-  margin-right: 10px;
+  margin: 0px 5px 5px 4px;
+  text-align: center;
+  line-height: 27px;
+  width: 30px;
+  border-radius: 20%;
+  transition: all 0.5s ease;
+}
+.pie-pagina .box1 .red-social a:hover {
+  background-color: orange;
 }
 .pie-pagina .box2 {
   color: rgb(240, 240, 240);
-  margin: 30px;
-  padding-top: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
 }
 
 .Video img {
@@ -164,7 +173,7 @@ nav ul li .idicator {
 #mainhome {
   display: flex;
   flex-direction: column;
-  width: 96%;
+  width: 100%;
 }
 #mainhome .home {
   display: flex;
@@ -201,12 +210,23 @@ nav ul li .idicator {
   display: inline-block;
   line-height: 10px;
   margin-right: 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 29px;
+  width: 30px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+#mainhome .home .derecha .imgs-redes a:hover {
+  background-color: rgb(224, 236, 248);
+  box-shadow: 4px 4px 3px rgb(17, 17, 17);
 }
 #mainhome .home .derecha .imgs-redes img {
   width: 30px;
 }
 #mainhome #reseñas {
-  background-color: rgb(243, 245, 247);
+  background-color: rgb(224, 236, 248);
   border-radius: 1em;
   text-align: center;
   display: grid;
@@ -248,7 +268,7 @@ nav ul li .idicator {
 }
 #cursos #cursos-especiales {
   width: 100%;
-  background-color: rgb(243, 245, 247);
+  background-color: rgb(224, 236, 248);
   border-radius: 1em;
   text-align: center;
   padding: 20px;
@@ -308,16 +328,60 @@ main .salidascortas .salidas-diurnas .tipo-diurnas .salida6 {
   grid-area: seis;
 }
 main .salidascortas .salidas-especiales {
-  background-color: rgb(243, 245, 247);
   width: 100%;
   padding: 15px;
   margin: 0px;
 }
+main .salidascortas .salidas-especiales .card {
+  margin: 20px 15px;
+  border-color: rgb(1, 19, 91);
+  box-shadow: 1px 1px 10px rgb(177, 175, 175);
+}
+main .salidascortas .salidas-especiales .card .card-header {
+  background-color: rgb(1, 19, 91);
+  font-weight: 300;
+  color: rgb(240, 240, 240);
+}
 main .travell {
+  background-color: rgb(224, 236, 248);
   width: 100%;
   padding: 15px;
   margin: 0px;
   text-align: center;
+}
+main .travell .travesias {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 40vh);
+  gap: 35px;
+  grid-template-areas: "uno uno dos" "uno uno dos" "tres cuatro cuatro" "tres cinco seis";
+}
+main .travell .travesias img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1em;
+  box-shadow: 1px 1px 10px rgb(177, 175, 175);
+  padding: 5px;
+}
+main .travell .travesias .salida1 {
+  grid-area: uno;
+}
+main .travell .travesias .salida2 {
+  grid-area: dos;
+}
+main .travell .travesias .salida3 {
+  grid-area: tres;
+}
+main .travell .travesias .salida4 {
+  grid-area: cuatro;
+}
+main .travell .travesias .salida5 {
+  grid-area: cinco;
+}
+main .travell .travesias .salida6 {
+  grid-area: seis;
 }
 
 #galeria .headerfoto {

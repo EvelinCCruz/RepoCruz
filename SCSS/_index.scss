@@ -36,7 +36,7 @@
 #mainhome{
     display: flex;
     flex-direction: column;
-    width: 96%;
+    width: 100%;
     .home{
         display: flex;
         flex-direction: row;
@@ -71,6 +71,17 @@
                     display: inline-block;
                     line-height: 10px;
                     margin-right: 10px; 
+                    text-decoration: none;
+                display: inline-block;
+                text-align: center;
+                line-height: 29px;
+                width: 30px;
+                border-radius: 50%;
+                transition: all .5s ease;
+                &:hover{
+                    background-color: $secundaryColor;
+                    box-shadow: $textShadow;
+                }
                 }
                 img{
                     width: $sizeMd;
