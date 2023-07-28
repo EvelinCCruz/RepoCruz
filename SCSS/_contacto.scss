@@ -1,0 +1,40 @@
+#contacto{
+    text-align: left;
+    margin: $margin;
+    display: flex;
+    display: column;
+    .contactar{
+        width: 60%;
+        .contact{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .contactemail{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+            img{
+                width: $sizeSm;
+            }
+        .img{
+            img{
+                margin: 20px;
+                width: 400px;
+                border-radius: $border;
+            }
+        }
+    }
+    .row{
+        margin: 20px 30px;
+        padding: 20px;
+        background-color: $secundaryColor;
+        border-radius: $border;
+        box-shadow: $shadow;        
+    }
+    
+}
+
+        
+            

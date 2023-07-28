@@ -40,6 +40,10 @@ p {
   border-width: 2px;
 }
 
+.bg-skyblue {
+  background-color: rgb(84, 170, 240);
+}
+
 .nav {
   box-shadow: 0 0 15px rgb(1, 19, 91);
   background-color: rgba(1, 19, 91, 0.3);
@@ -382,6 +386,41 @@ main .travell .travesias .salida5 {
 }
 main .travell .travesias .salida6 {
   grid-area: seis;
+}
+
+#contacto {
+  text-align: left;
+  margin: 20px 15px;
+  display: flex;
+  display: column;
+}
+#contacto .contactar {
+  width: 60%;
+}
+#contacto .contactar .contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#contacto .contactar .contactemail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#contacto .contactar img {
+  width: 25px;
+}
+#contacto .contactar .img img {
+  margin: 20px;
+  width: 400px;
+  border-radius: 1em;
+}
+#contacto .row {
+  margin: 20px 30px;
+  padding: 20px;
+  background-color: rgb(224, 236, 248);
+  border-radius: 1em;
+  box-shadow: 1px 1px 10px rgb(177, 175, 175);
 }
 
 #galeria .headerfoto {
