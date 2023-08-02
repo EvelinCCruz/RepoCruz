@@ -33,7 +33,7 @@ p {
   background-color: rgb(1, 19, 91);
   color: rgb(240, 240, 240);
 }
-.bg-blue .bg-blue:hover {
+.bg-blue:hover {
   background-color: rgb(240, 240, 240);
   color: rgb(1, 19, 91);
   border-color: rgb(1, 19, 91);
@@ -95,15 +95,11 @@ nav ul li .idicator {
   transition: 0.3s ease-out all;
 }
 
-#nav-home {
-  position: fixed;
-}
-
-#pages {
+.navbar {
   background-color: rgba(1, 19, 91, 0.3);
   box-shadow: 0 0 15px rgb(17, 17, 17);
 }
-#pages .caja-container h1 {
+.navbar .caja-container h1 {
   text-shadow: 1px 1px 10px rgb(177, 175, 175);
 }
 
@@ -229,7 +225,7 @@ nav ul li .idicator {
 #mainhome .home .derecha .imgs-redes img {
   width: 30px;
 }
-#mainhome #reseñas {
+#mainhome .reseña {
   background-color: rgb(224, 236, 248);
   border-radius: 1em;
   text-align: center;
@@ -238,10 +234,7 @@ nav ul li .idicator {
   width: 95%;
   box-shadow: 1px 1px 10px rgb(177, 175, 175);
   margin: 10px 30px 30px;
-}
-#mainhome #reseñas .reseña {
   padding: 10px;
-  margin: 10px;
 }
 
 #cursos {
@@ -346,47 +339,6 @@ main .salidascortas .salidas-especiales .card .card-header {
   font-weight: 300;
   color: rgb(240, 240, 240);
 }
-main .travell {
-  background-color: rgb(224, 236, 248);
-  width: 100%;
-  padding: 15px;
-  margin: 0px;
-  text-align: center;
-}
-main .travell .travesias {
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 40vh);
-  gap: 35px;
-  grid-template-areas: "uno uno dos" "uno uno dos" "tres cuatro cuatro" "tres cinco seis";
-}
-main .travell .travesias img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 1em;
-  box-shadow: 1px 1px 10px rgb(177, 175, 175);
-  padding: 5px;
-}
-main .travell .travesias .salida1 {
-  grid-area: uno;
-}
-main .travell .travesias .salida2 {
-  grid-area: dos;
-}
-main .travell .travesias .salida3 {
-  grid-area: tres;
-}
-main .travell .travesias .salida4 {
-  grid-area: cuatro;
-}
-main .travell .travesias .salida5 {
-  grid-area: cinco;
-}
-main .travell .travesias .salida6 {
-  grid-area: seis;
-}
 
 #contacto {
   text-align: left;
@@ -445,6 +397,59 @@ main .travell .travesias .salida6 {
   margin: 10px;
 }
 
+#viajes .presentacion {
+  background-image: url(/imgs/fotosprincipales/fondoviaje.png);
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.travell {
+  background-color: rgb(224, 236, 248);
+  width: 100%;
+  padding: 15px;
+  margin: 0px;
+  text-align: center;
+}
+.travell .travesias {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 40vh);
+  gap: 35px;
+  grid-template-areas: "uno uno dos" "uno uno dos" "tres cuatro cuatro" "tres cinco seis";
+}
+.travell .travesias img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1em;
+  box-shadow: 1px 1px 10px rgb(177, 175, 175);
+  padding: 5px;
+}
+.travell .travesias .salida1 {
+  grid-area: uno;
+}
+.travell .travesias .salida2 {
+  grid-area: dos;
+}
+.travell .travesias .salida3 {
+  grid-area: tres;
+}
+.travell .travesias .salida4 {
+  grid-area: cuatro;
+}
+.travell .travesias .salida5 {
+  grid-area: cinco;
+}
+.travell .travesias .salida6 {
+  grid-area: seis;
+}
+
 @media (width < 768px) {
   .pie-pagina {
     text-align: center;
@@ -486,6 +491,31 @@ main .travell .travesias .salida6 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 40vh);
     grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis";
+  }
+}
+@media (width < 420px) {
+  nav img {
+    width: 100px;
+    padding: 3px;
+  }
+  #mainhome .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+  }
+  #mainhome .home .container {
+    max-width: 418px;
+  }
+  #mainhome .home .derecha {
+    padding: 0px;
+    margin: 0px 25px;
+  }
+  #mainhome .home .derecha .map-container iframe {
+    width: 80%;
+  }
+  #mainhome .reseña {
+    padding: 20px;
   }
 }
 

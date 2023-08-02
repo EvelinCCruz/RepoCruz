@@ -59,29 +59,27 @@
                     box-shadow: $shadow;
                     margin: 6px 0px; 
                     width: 500px;
-                    height: 430px;
-                    
+                    height: 430px;                    
                 }
             }
             .imgs-redes{
-                margin: $margin;
-                
+                margin: $margin;                
                 a{
                     text-decoration: none;
                     display: inline-block;
                     line-height: 10px;
                     margin-right: 10px; 
                     text-decoration: none;
-                display: inline-block;
-                text-align: center;
-                line-height: 29px;
-                width: 30px;
-                border-radius: 50%;
-                transition: all .5s ease;
-                &:hover{
-                    background-color: $secundaryColor;
-                    box-shadow: $textShadow;
-                }
+                    display: inline-block;
+                    text-align: center;
+                    line-height: 29px;
+                    width: 30px;
+                    border-radius: 50%;
+                    transition: all .5s ease;
+                    &:hover{
+                        background-color: $secundaryColor;
+                        box-shadow: $textShadow;
+                    }
                 }
                 img{
                     width: $sizeMd;
@@ -89,7 +87,7 @@
             }
         }
     }
-    #reseñas{
+    .reseña{
         background-color: $secundaryColor;
         border-radius: $border;
         text-align: center;
@@ -98,11 +96,6 @@
         width: 95%;       
         box-shadow: $shadow;
         margin: $margin2;
-        
-        .reseña{
-            padding: 10px;
-            margin: 10px;
-        }
-            
-    }    
+        padding: 10px;
+    }
 }

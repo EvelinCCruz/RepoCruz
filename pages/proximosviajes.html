@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berisso Kayak-Staff</title>
-    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <title>Berisso Kayak-Próximos viajes</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/main.css">
 </head>
 <body>
-    <header id="galeria" class="presentacion">
+    <header id="viajes" class="presentacion">
         <nav class="navbar navbar-expand-md nav">
             <div class="container-fluid">
-                <a href="index.html">
-                    <img src="./imgs/SVG/LogoVector.svg" alt="Berisso Kayak">
+                <a href="../index.html">
+                    <img src="../imgs/SVG/LogoVector.svg" alt="Berisso Kayak">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="white" class="bi bi-list" viewBox="0 0 16 16">
@@ -24,22 +22,22 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li>
-                            <a href="index.html">Quienes somos</a>
+                            <a href="../index.html">Quienes somos</a>
                         </li>
                         <li>
-                            <a href="./pages/cursos.html">Cursos</a>
+                            <a href="./cursos.html" class="active">Cursos</a>
                         </li>
                         <li>
-                            <a href="./pages/turismo.html">Excursiones</a>
+                            <a href="./turismo.html">Excursiones</a>
                         </li>
                         <li>
-                            <a href="./pages/contacto.html">Contacto</a>
+                            <a href="./contacto.html">Contacto</a>
                         </li>
                         <li>
-                            <a href="./pages/staff.html">Staff</a>
+                            <a href="./staff.html">Staff</a>
                         </li>
                         <li>
-                            <a href="./pages/proximosviajes.html">Próximos viajes</a>
+                            <a href="./proximosviajes.html">Próximos viajes</a>
                         </li>
                     </ul>
                 </div>
@@ -47,35 +45,39 @@
         </nav>
     </header>
 
-    <main id="grid" class="staff">
-        <div class="resumen ">
-            <h1>Nuestro STAFF</h1>
-            <p>Berisso Kayak está conformado por:
-            </p>
-        </div>
-        <div class="foto1">
-           <img src="../imgs/Staff/Jorge.png" alt="Foto1">
-        </div>
-        <div class="info1">
-                <h2>Jorge A. Barrionuevo</h2>
-                <p>Fundador de Berisso Kayak, instructor y guía. Es
-                    Instructor L3 y Guía de kayak de la AAGIK, Guía de Turismo Aventura por la
-                    UES21 y Guía de Turismo de la ciudad de Berisso Dec. 36/19 HCDCB.</p>
-        </div>
-        <div class="foto2">
-            <img src="../imgs/Staff/Fede.jpg" alt="Foto1">
-        </div>
-        <div class="info2">
-            <div>
-               <h2>Federico Palomeque</h2>
-                <p>Socio fundador de Berisso Kayak,
-                    Instructor L3 de kayak de la AAGIK, Entrenador Personal y
-                    próximo a recibirse de Profesor de Educación Física por la
-                    UNLP.</p>
-            </div>  
-        </div> 
+    <main>
+        <section class="travell">
+            <h2>Travesias</h2>
+            <p>A lo largo del año y particularmente en fechas de fines de semana largo, nos vamos de viajes a realizar diferentes expediciones por el país. Entendemos por travesía a toda aquella excursión la cual se realiza a lo largo de dos o más días (tienen pernocte). Las mismas pueden ser en campamentos agrestes como por ejemplo en los arenales del Rio Uruguay, con campings con servicios como en Bariloche, o con todas las comodidades que un complejo de cabañas nos puede dar como en el Delta del Paraná.</p>
+            <div class="travesias">
+                <div class="salida1">
+                    <img src="../imgs/salidas/Arroyo el pescado.jpg" alt="Arroyo el pescado">
+                    <p>Arroyo "El Pescado"</p>                           
+                </div>
+                <div class="salida2">
+                    <img src="../imgs/salidas/Río de la plata.jpg" alt="Río de la plata">
+                    <p>Rio de La Plata</p>                    
+                </div>
+                <div class="salida3">
+                    <img src="../imgs/salidas/Delta de Berisso.jpg" alt="Delta de Berisso">
+                    <p>Delta de Berisso</p>                    
+                </div>
+                <div class="salida4">
+                    <img src="../imgs/salidas/Isla Paulino.jpg" alt="Isla Paulino">
+                    <p>Isla Paulino</p>                    
+                </div>
+                <div class="salida5">
+                    <img src="../imgs/salidas/Rio Santiago.jpg" alt="Delta de Rio Santiago">
+                    <p>Ensenada de Barragán</p>
+                </div>
+                <div class="salida6">
+                    <img src="../imgs/salidas/Dos ríos.jpg" alt="Rio Santiago">
+                    <p>Dos Ríos</p>
+                </div>
+            </div>
+        </section>
     </main>
-  
+
     <footer class="pie-pagina">
         <div class="box1">
             <h3>SEGUINOS EN:</h3>
@@ -96,5 +98,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/fresco.min.js"></script>
+    
 </body>
 </html>

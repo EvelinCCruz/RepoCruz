@@ -70,3 +70,39 @@
 }
 
 
+
+@media (width < 420px){
+    nav{
+        img{
+        width: 100px;
+        padding: 3px;
+        }
+    }
+    
+    #mainhome{
+        .home{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+            .container{
+                max-width: 418px;
+            }
+            .derecha{
+                padding: 0px;
+                margin: 0px 25px;
+                .map-container{
+                    iframe{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+        .reseña{
+            padding: 20px;
+        }
+    }
+
+}
+
+

@@ -30,7 +30,7 @@ p{
 .bg-blue{
     background-color: $mainColor;
     color: $white;
-    .bg-blue:hover{
+    &:hover{
         background-color: $white;
         color: $mainColor;
         border-color: $mainColor;
@@ -96,14 +96,8 @@ nav{
         }     
     }
 }   
-#nav-home{
-    position: fixed;
-}
 
-
-
-
-#pages{
+.navbar{
     background-color: $mainColorb;
     box-shadow: 0 0 15px $black;
     

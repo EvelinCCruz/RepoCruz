@@ -65,47 +65,7 @@ main{
                 }
             }
         }        
-    }
-    .travell{
-        background-color: $secundaryColor;
-        width: 100%;
-        padding: 15px;
-        margin: 0px;
-        text-align: center;    
-        .travesias{
-            padding: 20px;
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                border-radius: $border;
-                box-shadow: $shadow;
-                padding: 5px;
-            }
-            @include grid( 3, 4, 35px);
-                grid-template-areas: "uno uno dos" "uno uno dos" "tres cuatro cuatro" "tres cinco seis";
-            
-                .salida1{
-                    grid-area: uno;                  
-                }
-                .salida2{
-                    grid-area: dos;
-                }
-                .salida3{
-                    grid-area: tres;
-                }
-                .salida4{
-                    grid-area: cuatro;
-                }
-                .salida5{
-                    grid-area: cinco;
-                }
-                .salida6{
-                    grid-area: seis;
-                }
-            
-        }    
-    }
+    }    
 }
 
 
