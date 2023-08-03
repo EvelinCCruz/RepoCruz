@@ -87,6 +87,19 @@
 
 
 
+    
+     .travell{
+            .travesias{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat (6,1fr);
+                grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis";
+            }
+        }
+    
+
+
+
 
 
 
