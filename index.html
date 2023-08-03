@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Berisso Kayak</title>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -13,8 +14,7 @@
     <link rel="stylesheet" href="./CSS/main.css">
 </head>
 
-<body>
-   
+<body>   
     <header id="galeria" class="presentacion">
         <nav class="navbar navbar-expand-md nav">
             <div class="container-fluid">
@@ -48,7 +48,7 @@
             </div>
         </nav>
         
-        <div class="caja-container">
+        <div class="caja-container wow zoomIn">
             <h1>Bienvenidos a Berisso Kayak</h1>
         </div>
     </header>
@@ -88,37 +88,40 @@
 
         <section class="staff">
             <h2>Nuestro Staff</h2>
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="./imgs/Staff/Jorge.png" class="img-fluid rounded-start" alt="Jorge Barrionuevo">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h2 class="card-title">Jorge Barrionuevo</h2>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <div class="cards row">                
+                <div class="card border-secondary mb-3" style="max-width: 45%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imgs/Staff/Jorge.png" class="w-100 h-100" alt="Jorge Barrionuevo">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">Jorge Barrionuevo</h2>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="./imgs/Staff/Fede.jpg" class="card-img-top" alt="Federico Palomeque">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h2 class="card-title">Federico Palomeque</h2>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                   
+                <div class="card border-secondary mb-3" style="max-width: 45%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./imgs/Staff/Fede.jpg" class="w-100 h-100 " alt="Federico Palomeque">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">Federico Palomeque</h2>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </section>
 
-        <section id="reseñas">
+        <section>
             <div class="reseña">
                 <h2>Nuestras reseñas de Google</h2>
                 <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
@@ -148,6 +151,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/fresco.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script> 
+        new WOW().init();
+    </script> 
 
 </body>
 </html>

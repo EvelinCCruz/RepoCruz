@@ -27,20 +27,29 @@
             justify-content: center;
             text-align: justify;
             .container{
-                max-width: 760px;
+                max-width: 735px;
             }
             .derecha{
-                padding: 0px;
                 margin: 0px 25px;
                 .map-container{
+                    margin: 0px;
                     iframe{
-                        width: 104%;
+                        width: 100%;
                     }
+                }
+                .imgs-redes{
+                    margin: 15px 0px;
                 }
             }
         }
+        .staff{
+            margin: 0px 25px;
+        }
+        .card{
+            width: 100%;
+        }
         .reseña{
-            padding: 30px;
+            width: 92%;
         }
     }
 
@@ -60,6 +69,29 @@
         }
     }
     
+
+
+
+    #contacto{
+        flex-wrap: wrap;
+        .contactar{
+            .img{
+                margin-left: 40px;
+                img{
+                   width: 100vh; 
+                }    
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+   
     
 
 

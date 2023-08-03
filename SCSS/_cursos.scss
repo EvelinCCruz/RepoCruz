@@ -18,12 +18,20 @@
         font-size: $fontXs;
         font-weight: $textSemi;
         color: $mainColor;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
     }
     .card-text{
         font-size: $fontXs;
         flex-grow: 1;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
     }
-    #cursos-especiales{
+    .cursos-especiales{
         width: 100%;
         background-color: $secundaryColor;
         border-radius: $border;
@@ -31,4 +39,5 @@
         padding: 20px;
         justify-content: center;
     }
+       
 }
