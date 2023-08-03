@@ -500,7 +500,7 @@ main .salidascortas .salidas-especiales .card .card-text {
   #contacto .contactar .img img {
     width: 100vh;
   }
-  .travell .travesias {
+  #prox-travesias .travell .travesias {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat 6, 1fr;

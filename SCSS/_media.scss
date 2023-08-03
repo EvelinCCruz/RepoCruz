@@ -87,8 +87,8 @@
 
 
 
-    
-     .travell{
+    #prox-travesias{
+        .travell{
             .travesias{
                 display: grid;
                 grid-template-columns: 1fr;
@@ -96,6 +96,7 @@
                 grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis";
             }
         }
+    }    
     
 
 
