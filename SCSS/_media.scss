@@ -114,11 +114,11 @@
 
 
 
-@media (width < 420px){
+@media (width < 370px){
     nav{
         img{
-        width: 100px;
-        padding: 3px;
+        width: 150px;
+        padding: 1px;
         }
     }
     
@@ -129,20 +129,29 @@
             justify-content: center;
             text-align: justify;
             .container{
-                max-width: 418px;
+                max-width: 350px;
             }
             .derecha{
-                padding: 0px;
-                margin: 0px 25px;
+                margin: 0px 10px;
                 .map-container{
+                    margin: 0px;
                     iframe{
-                        width: 80%;
+                        width: 100%;
                     }
+                }
+                .imgs-redes{
+                    margin: 15px 0px;
                 }
             }
         }
+        .staff{
+            margin: 0px 5px;
+        }
+        .card{
+            width: 100%;
+        }
         .reseña{
-            padding: 20px;
+            width: 50%;
         }
     }
 

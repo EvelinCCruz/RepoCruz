@@ -259,9 +259,13 @@ nav ul li .idicator {
   text-align: left;
 }
 #mainhome .card {
+  padding: 0;
   margin-top: 10px;
   margin-left: 20px;
   box-shadow: 1px 1px 10px rgb(177, 175, 175);
+}
+#mainhome .card img {
+  object-fit: cover;
 }
 
 #cursos {
@@ -542,10 +546,10 @@ main .salidascortas .salidas-especiales .card .card-text {
     align-items: end;
   }
 }
-@media (width < 420px) {
+@media (width < 370px) {
   nav img {
-    width: 100px;
-    padding: 3px;
+    width: 150px;
+    padding: 1px;
   }
   #mainhome .home {
     display: flex;
@@ -554,17 +558,28 @@ main .salidascortas .salidas-especiales .card .card-text {
     text-align: justify;
   }
   #mainhome .home .container {
-    max-width: 418px;
+    max-width: 350px;
   }
   #mainhome .home .derecha {
-    padding: 0px;
-    margin: 0px 25px;
+    margin: 0px 10px;
+  }
+  #mainhome .home .derecha .map-container {
+    margin: 0px;
   }
   #mainhome .home .derecha .map-container iframe {
-    width: 80%;
+    width: 100%;
+  }
+  #mainhome .home .derecha .imgs-redes {
+    margin: 15px 0px;
+  }
+  #mainhome .staff {
+    margin: 0px 5px;
+  }
+  #mainhome .card {
+    width: 100%;
   }
   #mainhome .reseña {
-    padding: 20px;
+    width: 50%;
   }
 }
 
