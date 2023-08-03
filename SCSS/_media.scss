@@ -92,7 +92,7 @@
             .travesias{
                 display: grid;
                 grid-template-columns: 1fr;
-                grid-template-rows: repeat (6,1fr);
+                grid-template-rows: repeat(6,40vh);
                 grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis";
             }
         }
@@ -101,18 +101,15 @@
 
 
 
-
-
-
-
-   
-    
-
-
-
-
-    
-     
+    #error404{
+        .boton{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+        }
+    }
+  
 }
 
 
