@@ -412,8 +412,8 @@ main .salidascortas .salidas-especiales .card .card-text {
   box-shadow: 1px 1px 10px rgb(177, 175, 175);
 }
 
-.pr {
-  background-image: url(/imgs/fotosprincipales/fondoviaje.png);
+.proximosviajes {
+  background-image: url(/imgs/fotosprincipales/bannertravesia.png);
   width: 100%;
   height: 80vh;
   display: flex;
