@@ -41,7 +41,7 @@ Me despido de este hermoso equipo de estudio, tanto profe como tutores y compañ
 por ese camino y espero volver a cruzarlos. 
 Adjunto los links correspondientes a este trabajo:
 
-* **Link Repositorio---->**
+* **Link Repositorio---->** https://github.com/EvelinCCruz/RepoCruz.git
 
 * **Link Git Page---->** https://evelinccruz.github.io/RepoCruz/
 
