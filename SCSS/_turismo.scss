@@ -5,17 +5,11 @@ main{
             margin: $margin;
         }
         .salidas-diurnas{
-            background-color: $mainColor;
+            background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(2,26,149,1) 50%, rgba(255,255,255,1) 100%);
             width: 100%;
             padding: 15px;
             margin: 0px;
-            h2{
-                color: $white;
-            }
-            p{
-                color: $white;
-            }
-            
+                        
             .tipo-diurnas{
                 padding: 20px;
                 img{
@@ -70,8 +64,8 @@ main{
                     -webkit-line-clamp: 4;
                     -webkit-box-orient: vertical;
                 }
-                
             }
+               
         }        
     }    
 }

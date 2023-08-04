@@ -13,12 +13,12 @@
         a{
             text-decoration: none;
             font-size: $fontMd;
-            background-color: $mainColor;
+            background: linear-gradient(0deg, rgba(90,123,255,1) 0%, rgba(72,90,179,1) 35%, rgba(0,33,98,1) 100%);
             color: $white;
             padding: 10px;
             border-radius: 0.5em;
             &:hover{
-                background-color: $white;
+                background: linear-gradient(180deg, rgba(245,254,255,1) 0%, rgba(157,251,250,1) 35%, rgba(0,212,255,1) 100%);
                 color: $mainColor;
                 border-style: solid;
                 border-color: $mainColor;
