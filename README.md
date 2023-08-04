@@ -21,7 +21,7 @@ al inicio.
 
 
 
-## Idiomas y herramientas
+## Idiomas y herramientas 💻
 Para realizar este trabajo utilizamos:
 
 __Idioma:__ ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white&link=https://github.com/Quananhle/Front-End-Dev) [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&link=https://github.com/Quananhle/Front-End-Dev)](https://github.com/Quananhle/Front-End-Dev)  
@@ -36,7 +36,7 @@ __Framework:__ ![SASS](https://img.shields.io/badge/-Sass-cc6699?style=flat&logo
 * El proyecto esta testeado en Crhome, en Microsoft Edge y en proceso en mobile con 320px.
 * Las animaciones aplicadas fueron realizadas con Animate.CSS mediante cdn.
 
-# ¡Gracias por llegar hasta acá!
+# ¡Gracias por llegar hasta acá! ⭐️
 Me despido de este hermoso equipo de estudio, tanto profe como tutores y compañeros, afirmando que me siento motivada por continuar
 por ese camino y espero volver a cruzarlos. 
 Adjunto los links correspondientes a este trabajo:
@@ -46,3 +46,5 @@ Adjunto los links correspondientes a este trabajo:
 * **Link Git Page---->**
 
 * **Link Server---->**
+
+![GIT HUB](https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif)
