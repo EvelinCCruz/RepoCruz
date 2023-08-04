@@ -2,16 +2,12 @@
 # Proyecto Final Evelin Cruz 🚀
 ![Saludo](https://github.com/SrishtiSinghD/SrishtiSinghD/blob/master/tenor%20(2).gif) 
 ## ¡Hola gente bella! 👋
-👨🏻‍💻Mi nombre es Evelin y tengo 31 años. Hace unos meses comencé una nueva etapa para mi en lo digital. Estudié diseño gráfico y decidí 
-cursar Diseño UX/UI. Siendo que no terminó de convercerme exploré el mundo de los códigos con Desarrollo Web y gracias a 
+👨🏻‍💻Mi nombre es Evelin y tengo 31 años. Hace unos meses comencé una nueva etapa para mi en lo digital. Estudié diseño gráfico y decidí cursar Diseño UX/UI. Siendo que no terminó de convercerme exploré el mundo de los códigos con Desarrollo Web y gracias a 
 la buena onda y paciencia de la profe y tutores puede decirse que éste mundo me está abrazando. 🤝🏻
 Me gusta poder darle vida a un sitio web, siempre me llamó la atención el cómo estaban hechos; y ahora tener un pie para 
-comenzar a hacerlos es un gran logro para mi. Mi idea es continuar con éste conocimiento en lo digital. Continuaré con Full Stack y 
-más adelante me gustaría realizar Ciberseguridad. Hoy me siento orgullosa de haber llegado hasta acá y me siento más motivada para 
-seguir adelante. Éste proyecto me ha sacado canas verdes jajja pero esa no excusa para rendirse.
+comenzar a hacerlos es un gran logro para mi. Mi idea es continuar con éste conocimiento en lo digital. Continuaré con Full Stack y más adelante me gustaría realizar Ciberseguridad. Hoy me siento orgullosa de haber llegado hasta acá y me siento más motivada para seguir adelante. Éste proyecto me ha sacado canas verdes jajja pero esa no excusa para rendirse.
 ## Sobre mi proyecto 👀
-Éste proyecto comenzó con una idea y terminó siendo otra, se agregaron contenidos que no he tenido en cuenta y que seguiré iterando porque
-la idea es que éste trabajo sea una página 100% funcional.
+Éste proyecto comenzó con una idea y terminó siendo otra, se agregaron contenidos que no he tenido en cuenta y que seguiré iterando porque la idea es que éste trabajo sea una página 100% funcional.
 Tomé como inspiración la empresa de mi pareja conocida como Berisso Kayak. Utilicé su paleta de colores y como era de esperarse, 
 fotos de sus experiencias. 
 Todas las páginas son responsive aunque, como mencioné anteriormente, seguiré iterando para lograr ula mejor experiencia de usuario.
@@ -37,8 +33,7 @@ __Framework:__ ![SASS](https://img.shields.io/badge/-Sass-cc6699?style=flat&logo
 * Las animaciones aplicadas fueron realizadas con Animate.CSS mediante cdn.
 
 # ¡Gracias por llegar hasta acá! ⭐️
-Me despido de este hermoso equipo de estudio, tanto profe como tutores y compañeros, afirmando que me siento motivada por continuar
-por ese camino y espero volver a cruzarlos. 
+Me despido de este hermoso equipo de estudio, tanto profe como tutores y compañeros, afirmando que me siento motivada por continuar por este camino digital y espero volver a cruzarlos. 
 Adjunto los links correspondientes a este trabajo:
 
 * **Link Repositorio---->** https://github.com/EvelinCCruz/RepoCruz.git
