@@ -43,7 +43,7 @@ Adjunto los links correspondientes a este trabajo:
 
 * **Link Repositorio---->**
 
-* **Link Git Page---->**
+* **Link Git Page---->** https://evelinccruz.github.io/RepoCruz/
 
 * **Link Server---->**
 
