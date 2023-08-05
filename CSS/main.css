@@ -522,7 +522,7 @@ main .salidascortas .salidas-especiales .card .card-text {
     flex-wrap: wrap;
   }
   #contacto .contactar .img {
-    margin: 0px 6git0px;
+    margin: 0px 60px;
     text-align: center;
   }
   #prox-travesias .travell .travesias {
@@ -538,7 +538,7 @@ main .salidascortas .salidas-especiales .card .card-text {
     align-items: end;
   }
 }
-@media (width < 370px) {
+@media (width < 320px) {
   nav img {
     width: 150px;
     padding: 1px;
