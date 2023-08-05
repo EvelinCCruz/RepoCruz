@@ -579,5 +579,38 @@ main .salidascortas .salidas-especiales .card .card-text {
     width: 74vh;
   }
 }
+@media (width < 320px) {
+  #mainhome .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+  }
+  #mainhome .home .container {
+    max-width: 77vh;
+    margin: 5px 5px;
+  }
+  #mainhome .home .derecha {
+    margin: 0px 10px;
+  }
+  #mainhome .home .derecha .map-container {
+    margin: 0px 5px;
+  }
+  #mainhome .home .derecha .map-container iframe {
+    width: 49vh;
+    height: 65vw;
+  }
+  #mainhome .home .derecha .imgs-redes {
+    margin: 20px 5px;
+  }
+  #mainhome .staff {
+    margin: 0px 15px;
+  }
+  #mainhome .cards {
+    display: flex;
+    flex-direction: column;
+    max-width: 47vh;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

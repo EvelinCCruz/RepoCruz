@@ -112,6 +112,8 @@
 
 
 
+
+
 @media (width < 480px){
     nav{
         img{
@@ -161,4 +163,46 @@
 
 }
 
+
+
+
+@media (width < 320px){
+    #mainhome{
+        .home{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+            .container{
+                max-width: 77vh;
+                margin: 5px 5px;
+            }
+            .derecha{
+                margin: 0px 10px;
+                .map-container{
+                    margin: 0px 5px;
+                    iframe{
+                        width: 49vh;
+                        height: 65vw;
+                    }
+                }
+                .imgs-redes{
+                    margin: 20px 5px;
+                }
+            }
+        }
+        .staff{
+            margin: 0px 15px;
+        }
+        .cards{
+            display: flex;
+            flex-direction: column;
+            max-width: 47vh;
+           
+        }
+        .reseña{
+            
+        }
+    }
+}
 
