@@ -591,14 +591,13 @@ main .salidascortas .salidas-especiales .card .card-text {
     margin: 5px 5px;
   }
   #mainhome .home .derecha {
-    margin: 0px 10px;
-  }
-  #mainhome .home .derecha .map-container {
     margin: 0px 5px;
   }
   #mainhome .home .derecha .map-container iframe {
     width: 49vh;
     height: 65vw;
+    text-align: center;
+    margin: auto;
   }
   #mainhome .home .derecha .imgs-redes {
     margin: 20px 5px;
@@ -610,6 +609,13 @@ main .salidascortas .salidas-especiales .card .card-text {
     display: flex;
     flex-direction: column;
     max-width: 47vh;
+    text-align: center;
+  }
+  #mainhome .reseña {
+    max-width: 43vh;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
   }
 }
 
