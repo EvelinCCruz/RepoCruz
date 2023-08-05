@@ -112,7 +112,7 @@
 
 
 
-@media (width < 320px){
+@media (width < 480px){
     nav{
         img{
         width: 150px;
@@ -127,29 +127,35 @@
             justify-content: center;
             text-align: justify;
             .container{
-                max-width: 350px;
+                max-width: 77vh;
+                margin: 10px 5px;
             }
             .derecha{
-                margin: 0px 10px;
+                margin: 10px;
                 .map-container{
-                    margin: 0px;
+                    margin: 0px 10px;
                     iframe{
-                        width: 100%;
+                        width: 73vh;
+                        height: 70vw;
                     }
                 }
                 .imgs-redes{
-                    margin: 15px 0px;
+                    margin: 20px 10px;
                 }
             }
         }
         .staff{
-            margin: 0px 5px;
+            margin: 0px 20px;
         }
-        .card{
-            width: 100%;
+        .cards{
+            display: flex;
+            flex-direction: column;
+            max-width: 430px;
+           
         }
         .reseña{
-            width: 50%;
+            margin: 20px;
+            width: 74vh;
         }
     }
 
